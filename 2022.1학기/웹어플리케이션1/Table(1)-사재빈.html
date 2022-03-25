@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>테이블 (1)</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            padding: none;
+        }
+        th, td{
+            background-color: white;
+            text-align: left;
+            border: 1px solid rgb(194, 190, 190);
+            padding-left: 6px;
+            font-size: 16px;
+        }
+        .company{
+            width: 246px;
+            text-align:left;
+            padding-left: 6px;
+        }
+        .contact{
+            width: 134px;
+            text-align: left;
+            padding-left: 6px;
+        }
+        .country{
+            width: 80px;
+            text-align: left;
+            padding-left: 6px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>TABLE 실습(1) 2017390355 사재빈</caption>
+        <colgroup>
+            <col class="company">
+            <col class="contact">
+            <col class="country">
+        </colgroup>
+
+        <thead>
+        <tr>
+            <th class="company">Company</th>
+            <th class="contact">Contact</th>
+            <th class="country">Country</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td rowspan="3">Alfreds Futterkiste</td>
+            <td colspan="2">Maria Anders</td>
+            <!-- <td>3</td> -->
+        </tr>
+        <tr>
+            <!-- <td>4</td> -->
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <!-- <td>7</td> -->
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Youshi Tannamuri</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td colspan="3">Magazzini Alimentari Riuniti</td>
+            <!-- <td>17</td> -->
+            <!-- <td>18</td> -->
+        </tr>
+        </tbody>
+        
+    </table>
+</body>
+</html>
