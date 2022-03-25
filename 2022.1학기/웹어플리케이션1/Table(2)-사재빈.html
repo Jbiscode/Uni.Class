@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>테이블 (2)</title>
+    <style>
+        table{
+            width: 1000px;
+            height: 360px;
+            border-collapse: collapse;
+            padding: none;
+            border: 1px solid rgb(194, 190, 190);
+        }
+        th, td{
+            background-color: white;
+            text-align: left;
+            border-top: 1px solid rgb(194, 190, 190);
+            border-bottom: 1px solid rgb(194, 190, 190);
+            padding-left: 6px;
+            font-size: 16px;
+        }
+        .Tag{
+            width: 15%;
+            height: 30px;
+        }
+        .Description{
+            width: 85%;
+            height: 30px;
+        }
+        .TagName{
+            text-decoration: underline;
+        }
+        .Even{
+            background-color: rgba(204, 204, 204, 0.433);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>TABLE 실습(2) 2017390355 사재빈</caption>
+        <colgroup>
+            <col class="Tag">
+            <col class="Description">
+        </colgroup>
+
+        <thead>
+        <tr>
+            <th class="Tag">Tag</th>
+            <th class="Description">Description</th>
+        </tr>
+        </thead>
+
+
+        <tbody>
+        <tr>
+            <td class="TagName Even">&lt;table&gt;</td>
+            <td class="Even">table 요소는 행(ㅡ)과 열(ㅣ)로 이루어진 표를 나타낸다.</td>
+        </tr>
+        <tr>
+            <td class="TagName">&lt;th&gt;</td>
+            <td>th 요소는 셀을 테이블 셀 그룹의 헤더(Header)로 정의한다.</td>
+        </tr>
+        <tr>
+            <td class="TagName Even">&lt;tr&gt;</td>
+            <td class="Even">tr 요소는 테이블의 행(ㅡ)을 정의한다.</td>
+        </tr>
+        <tr>
+            <td class="TagName">&lt;td&gt;</td>
+            <td>td 요소는 데이터를 포함하는 표의 셀을 정의한다.</td>
+        </tr>
+        <tr>
+            <td class="TagName Even">&lt;caption&gt;</td>
+            <td class="Even">caption 요소는 표의 제목을 정의한다. (<u>table당 하나</u>, 열리는 <u>table태그 바로 다음에</u> 작성해야한다.)</td>
+        </tr>
+        <tr>
+            <td class="TagName">&lt;colgroup&gt;</td>
+            <td>colgroup 요소는 표의 열(ㅣ)을 묶는 그룹을 정의한다.</td>
+        </tr>
+        <tr>
+            <td class="TagName Even">&lt;col&gt;</td>
+            <td class="Even">col 요소는 표의 열(ㅣ)을 나타내며, 열에 속하는 칸에 공통된 의미를 부여할때 사용한다.</td>
+        </tr>
+        <tr>
+            <td class="TagName">&lt;thead&gt;</td>
+            <td>thead 요소는 테이블의 열(ㅣ)헤드를 정의하는 일련의 행(ㅡ)을 정의한다.</td>
+        </tr>
+        <tr>
+            <td class="TagName Even">&lt;tbody&gt;</td>
+            <td class="Even">tbody 요소는 표의 여러행(&lt;tr&gt;)을 묶어서 표 본문을 구성하고 있다.</td>
+        </tr>
+        <tr>
+            <td class="TagName">&lt;tfoot&gt;</td>
+            <td>tfoot 요소는 테이블의 열을 요약하는 일련의 행을 정의한다.</td>
+        </tr>
+        </tbody>
+        
+    </table>
+</body>
+</html>
