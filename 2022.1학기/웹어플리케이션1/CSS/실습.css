@@ -1,0 +1,7 @@
+@import url(default.css);
+
+p{
+    color: blue;
+    width: 200px;
+    text-decoration: underline;
+}
